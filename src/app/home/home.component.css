@@ -1,0 +1,182 @@
+.home-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .banner-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .learning-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    background-color:#021c38;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer .left-info {
+    text-align: left;
+  }
+  
+  .footer .right-info {
+    display: inline block;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer .contact-button {
+    background-color: #fff;
+    color:#021c38;
+    border: 2px solid#021c38;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .footer .contact-button:hover {
+    background-color: #021c38;
+    color: #fff;
+  }
+  .toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #021c38;
+    color: #fff;
+    height: 60px;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .sign-in button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Additional styles for the content to avoid overlapping with the toolbar */
+  :host {
+    display: block;
+    margin-top: 60px; /* Adjust this value based on the toolbar's height */
+  }
+  
+  /* Optional: Apply a transition effect when scrolling down */
+  .toolbar.scrolled {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toolbar.scrolled .sign-in button {
+    background-color: #021c38;
+    color: #fff;
+  }
+
+  .home1-container{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+
+  .home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .top-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .image-container {
+    text-align: center;
+    width: 48%;
+  }
+  
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+  }
+  
+  .image-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+    }
+  }
+  
+  
+  
